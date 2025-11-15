@@ -30,7 +30,7 @@ GitHub Repository
 
 Creating a new repository on the command line
 
-git init (this starts initializing and creates git folder in your directory. It’s the connection from Computer to GitHub)(first time users only)
+git init (this starts initializing and creates git folder in your directory. It’s the connection from Computer to GitHub. Initialize everytime you create a new folder)
 
 git add (README.md, text file or image)
 
