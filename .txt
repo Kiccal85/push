@@ -1,0 +1,76 @@
+GitHub Instructions and Notes
+
+
+
+GitHub File and Folder Creation
+
+1. cd into a directory (folder) for example classes. 
+
+2. Inside that directory (folder) classes, make a directory folder (name of choice). Inside that folder you add text file, image file, README.md file, etc.
+
+3. With your bash (windows) terminal (mac/linux) type touch .txt to create a file. You can create more than one .txt file. 
+
+5. Click on .txt file to open it up. You can now copy and paste text inside of this file. 
+
+------------------------------------------------------------------
+
+
+GitHub Repository
+
+1. Log into Git. 
+
+2. Click on repositories and then click new. 
+
+3. Name repository. 
+
+4. Click create repository. 
+
+
+
+
+Creating a new repository on the command line
+
+git init (this starts initializing and creates git folder in your directory. It’s the connection from Computer to GitHub)(first time users only)
+
+git add (README.md, text file or image)
+
+git status (see status or what’s in the queue to be pushed) 
+
+git commit -m "first commit" (means adding new feature)
+
+git branch -M main (forces move and renames branch name to main)
+
+git remote add origin git@github.com:Kiccal85/git_notes.git (this establishes a connection between your local repository and remote repository, allowing you to push and pull changes)
+
+git push -u origin main
+
+
+----------------------------------------------------------
+
+Or push an existing repository form the command line
+
+
+git remote add origin 
+git branch -M main
+git push -u origin main
+
+
+
+---------------
+
+
+NOTES:
+
+1. Add .gitignore file in folder
+
+2. Git add successful
+
+3. Git status successful
+
+4. Git commit -m "first commit" successful
+
+5. Git branch -M main successful
+
+6. Git remote add origin git@github.com:Kiccal85/git_notes.git successful 
+
+7. Git push -u origin main successful
